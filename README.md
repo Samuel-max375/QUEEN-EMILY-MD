@@ -5,7 +5,7 @@ This is a WhatsApp bot built using the **Baileys** library for group management,
 
 <div align="center"> 
   <a href="https://git.io/typing-svg"> 
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff33cc&center=true&width=910&height=100&lines=Queen+Emily+MD;Multi+Device+WhatsApp+Bot;Coded+By+C.O+TECH" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=ff33cc&center=true&width=910&height=100&lines=Queen+Emily+MD+V1;Multi+Device+WhatsApp+Bot;DEVELOPED+By+C.O+TECH" alt="Typing SVG" />
   </a> 
 </div> 
 
@@ -120,8 +120,8 @@ Lightweight, fast, and fully customizable.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/Queen-Emily-MD.git
-cd Queen-Emily-MD
+git clone https://github.com/favourodoemenechidozie/QUEEN-EMILY-MD.git
+cd QUEEN-EMILY-MD
 
 # Install dependencies
 npm install
@@ -142,7 +142,7 @@ Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## 👑 Credits
 
-* C.O TECH (Main Owner)
+* C.O TECH (main onwer)
 - [Professor](https://github.com/mruniquehacker) for source code base 
 - [Baileys](https://github.com/adiwajshing/Baileys) for pair code 
 

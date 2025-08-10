@@ -10,7 +10,7 @@ This is a WhatsApp bot built using the **Baileys** library for group management,
 </div> 
 
 <div align="center"> 
-  <img src="" alt="Queen Emily MD" height="300"> 
+  <img src="https://github.com/favourodoemenechidozie/QUEEN-EMILY-MD/blob/main/QUEEN%20EMILY%20V1/assets/v1.jpg" alt="Queen Emily MD" height="300"> 
 </div>
 
 ---

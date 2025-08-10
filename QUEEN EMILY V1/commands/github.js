@@ -5,7 +5,7 @@ const path = require('path');
 
 async function githubCommand(sock, chatId, message) {
   try {
-    const res = await fetch('https://api.github.com/repos/favourodoemenechidozie/QUEEN-EMILY-MD-V1');
+    const res = await fetch('https://api.github.com/repos/favourodoemenechidozie/QUEEN-EMILY-MD');
     if (!res.ok) throw new Error('Error fetching repository data');
     const json = await res.json();
 

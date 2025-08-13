@@ -148,7 +148,4 @@ Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-## ⚠️ Warning
-
-This bot is unofficial. Use responsibly to avoid WhatsApp bans.
 

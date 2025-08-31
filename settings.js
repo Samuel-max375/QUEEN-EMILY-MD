@@ -7,7 +7,7 @@ const settings = {
   giphyApiKey: 'qnl7ssQChTdPjsKta2Ax2LMaGXz303tq',
   commandMode: "public",
   description: "one of the best whatsapp bots in the world .",
-  version: "1.0",
+  version: "1.2",
 };
 
 module.exports = settings;

@@ -16,7 +16,7 @@ async function helpCommand(sock, chatId, message) {
     const currentDate = moment().tz('Asia/Kolkata').format('DD/MM/YYYY');
     const day = moment().tz('Asia/Kolkata').format('dddd');
     const userInfo = message.pushName || 'Royal Subject';
-    const totalCommands = 104;
+    const totalCommands = 105;
     const avgSpeed = '0.25s';
 
     // Format memory information with percentage

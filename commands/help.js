@@ -17,7 +17,7 @@ async function helpCommand(sock, chatId, message) {
     const day = moment().tz('Asia/Kolkata').format('dddd');
     const userInfo = message.pushName || 'Royal Subject';
     const totalCommands = 104;
-    const avgSpeed = '0.35s';
+    const avgSpeed = '0.25s';
 
     // Format memory information with percentage
     const formatMemory = (bytes) => `${Math.round(bytes / 1024 / 1024)}MB`;
@@ -29,7 +29,7 @@ async function helpCommand(sock, chatId, message) {
 ✦⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅✦
            ✦ 𝐐𝐔𝐄𝐄𝐍 𝐄𝐌𝐈𝐋𝐘 𝐌𝐃 ✦
 ⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅
-✦ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: ${settings.version || '1.2'} 
+✦ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓: ${settings.version || '1.3'} 
 ✦ 𝕯𝖊𝖛𝖊𝖑𝖔𝖕𝖊𝖗: ${settings.botOwner || 'C.O Tech'}
 ✦ 𝕮𝖔𝖒𝖒𝖆𝖓𝖉𝖘: ${totalCommands}
 ✦ 𝖀𝖕𝖙𝖎𝖒𝖊: ${uptime}
@@ -45,7 +45,7 @@ async function helpCommand(sock, chatId, message) {
 ╔════════════════════════════════╗
   🧠 𝕀𝕟𝕥𝕖𝕝𝕝𝕚𝕘𝕖𝕟𝕔𝕖 (4)
 ╚════════════════════════════════╝
-🔮 .gpt 5 - Royal advisor
+🔮 .gpt  - Royal advisor
 🔮 .gemini - Advanced counsel
 🔮 .imagine - Royal visions
 🔮 .flux - Advanced visions
@@ -73,6 +73,7 @@ async function helpCommand(sock, chatId, message) {
 ✨ .ss <link> - Royal screenshot
 ✨ .jid - Royal identification
 ✨ .autosend - for stealing peeps whatsapp post
+✨ .update- update to the latest version
 
 ╔════════════════════════════════╗
   👑 ℂ𝕣𝕠𝕨𝕟 𝕁𝕖𝕨𝕖𝕝𝕤 (7)
@@ -188,7 +189,7 @@ async function helpCommand(sock, chatId, message) {
        *✦ Long may Queen Emily reign! ✦*
 ✦⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅⋅✦
 
-if you want to deploy the bot  .repo or .github
+if you want to deploy the bot type .repo or .github
  `;
 
   try {
